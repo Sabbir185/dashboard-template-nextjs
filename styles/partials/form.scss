@@ -1,0 +1,44 @@
+.ant-form-item-label {
+    label {
+        @apply font-medium text-sm text-gray-600 mb-0 block;
+    }
+}
+
+.form-input {
+    @apply border rounded px-2 py-2 mb-0.5 text-sm w-full hover:outline-none focus:outline-none hover:border-blue-600;
+}
+
+
+.ant-select-selector {
+    border-radius: .25rem!important;
+    margin-bottom: 2px;
+    &:hover {
+        border-color: rgb(37 99 235)!important;
+        outline: none!important;
+    }
+    &:active {
+        outline: none!important;
+    }
+}
+
+.ant-switch {
+    background-color: rgba(0, 0, 0, .15);
+    &.ant-switch-checked {
+        background-color: #1890ff;
+    }
+}
+
+.hide-arrow {
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    -moz-appearance: textfield;
+}
+
+.avatar {
+    .ant-upload.ant-upload-select-picture-card {
+        border: none!important;
+    }
+}
